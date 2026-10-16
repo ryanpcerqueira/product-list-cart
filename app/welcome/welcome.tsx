@@ -43,7 +43,7 @@ export function Welcome() {
           >
             Finalizar pedido
           </button>
-          <div>
+          <div className="hidden">
             {
               JSON.stringify(cartItems, null, 2)
             }
